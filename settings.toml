@@ -1,0 +1,23 @@
+[default]
+DEBUG = false
+FLASK_ADMIN_TEMPLATE_MODE = "bootstrap3"
+FLASK_ADMIN_SWATCH = 'cerulean'
+SQLALCHEMY_DATABASE_URI = 'sqlite:///development.db'
+TITLE = "project_name"
+SECRET_KEY = "Pl3453Ch4ng3"
+PASSWORD_SCHEMES = ['pbkdf2_sha512', 'md5_crypt']
+EXTENSIONS = [
+    "flask_bootstrap:Bootstrap",
+    "project_name.ext.database:init_app",
+    "project_name.ext.auth:init_app",
+    "project_name.ext.admin:init_app",
+    "project_name.ext.commands:init_app",
+    "project_name.ext.webui:init_app",
+    "project_name.ext.restapi:init_app",
+]
+
+[development]
+EXTENSIONS = [
+    "flask_debugtoolbar:DebugToolbarExtension",
+    "dynaconf_merge_unique"  # to reuse extensions list from [default]
+]
