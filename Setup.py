@@ -30,9 +30,7 @@ def read_requirements(path):
 
 
 setup(
-    name="project_name",
-    version=read("project_name", "VERSION"),
-    description="project_description",
+   
     url="https://github.com/author_name/project_urlname/",
     long_description=read("README.md"),
     long_description_content_type="text/markdown",
