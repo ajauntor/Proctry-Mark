@@ -7,8 +7,7 @@ TITLE = "project_name"
 SECRET_KEY = "Pl3453Ch4ng3"
 PASSWORD_SCHEMES = ['pbkdf2_sha512', 'md5_crypt']
 EXTENSIONS = [
-    "flask_bootstrap:Bootstrap",
-    "project_name.ext.database:init_app",
+   
     "project_name.ext.auth:init_app",
     "project_name.ext.admin:init_app",
     "project_name.ext.commands:init_app",
