@@ -15,6 +15,11 @@ EXTENSIONS = [
     "project_name.ext.webui:init_app",
     "project_name.ext.restapi:init_app",
 ]
+[development]
+EXTENSIONS = [
+    "flask_debugtoolbar:DebugToolbarExtension",
+    "dynaconf_merge_unique"  # to reuse extensions list from [default]
+]
 
 
 TEMPLATES_AUTO_RELOAD = true
