@@ -12,6 +12,7 @@ EXTENSIONS = [
     "project_name.ext.auth:init_app",
     "project_name.ext.admin:init_app",
     "project_name.ext.commands:init_app",
+    "project_name.ext.webui:init_app",
     
 ]
 
