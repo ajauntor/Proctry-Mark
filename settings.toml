@@ -23,7 +23,7 @@ EXTENSIONS = [
 
 [development]
 EXTENSIONS = [
-    "flask_debugtoolbar:DebugToolbarExtension",
+   
     "dynaconf_merge_unique"  # to reuse extensions list from [default]
 ]
 
