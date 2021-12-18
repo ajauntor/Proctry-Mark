@@ -73,4 +73,3 @@ else
     echo "then run 'project_name' or 'python -m project_name' or 'poetry run project_name'"
 fi
 
-echo "README.md has instructions on how to use this Flask application."
