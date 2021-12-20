@@ -50,6 +50,9 @@ rm -rf tests
 cp -R ${TEMPLATE_DIR}/project_name "${name}"
 cp -R ${TEMPLATE_DIR}/tests tests
 
+cp ${TEMPLATE_DIR}/README.md README.md
+cp ${TEMPLATE_DIR}/Containerfile Containerfile
+cp ${TEMPLATE_DIR}/wsgi.py wsgi.py
 
 
 # install
