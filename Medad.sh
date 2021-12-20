@@ -54,7 +54,7 @@ cp ${TEMPLATE_DIR}/README.md README.md
 cp ${TEMPLATE_DIR}/Containerfile Containerfile
 cp ${TEMPLATE_DIR}/wsgi.py wsgi.py
 cp ${TEMPLATE_DIR}/.env .env
-# cp ${TEMPLATE_DIR}/settings.toml settings.toml
+cp ${TEMPLATE_DIR}/settings.toml settings.toml
 
 # install
 make clean
