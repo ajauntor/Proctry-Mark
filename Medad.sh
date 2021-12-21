@@ -66,11 +66,11 @@ make clean
 #     echo "Applied Flask template"
 #     echo "Ensure you activate your env with 'source .venv/bin/activate'"
 #     echo "then run 'project_name' or 'python -m project_name'"
-# else
-#     poetry install
-#     echo "Applied Flask template"
-#     echo "Ensure you activate your env with 'poetry shell'"
-#     echo "then run 'project_name' or 'python -m project_name' or 'poetry run project_name'"
-# fi
+else
+    poetry install
+    echo "Applied Flask template"
+    echo "Ensure you activate your env with 'poetry shell'"
+    echo "then run 'project_name' or 'python -m project_name' or 'poetry run project_name'"
+fi
 
-# echo "README.md has instructions on how to use this Flask application."
+echo "README.md has instructions on how to use this Flask application."
