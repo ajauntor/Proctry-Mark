@@ -47,3 +47,5 @@ setup(
        
     },
 )
+
+# // + read_requirements("requirements-base.txt")
