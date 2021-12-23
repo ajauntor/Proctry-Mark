@@ -24,6 +24,7 @@ def read(*paths, **kwargs):
 def read_requirements(path):
     return [
         line.strip()
+        for line in read(path).split("\n")
         
     ]
 
