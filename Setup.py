@@ -44,7 +44,7 @@ setup(
     },
     extras_require={
         "test": read_requirements("requirements-test.txt")
-       
+        + read_requirements("requirements-base.txt")
     },
 )
 
