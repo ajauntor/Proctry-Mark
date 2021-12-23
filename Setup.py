@@ -21,7 +21,11 @@ def read(*paths, **kwargs):
     return content
 
 
-
+def read_requirements(path):
+    return [
+        line.strip()
+        
+    ]
 
 
 setup(
